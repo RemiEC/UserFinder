@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-'''
-Written by Rémi Guillon Bony
-'''
-
 from ast import Try, arg
 from time import sleep
 import requests
