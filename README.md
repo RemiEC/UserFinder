@@ -12,3 +12,7 @@ Pretty straightforward, just look at UserFinder.py -h
 For info, it's based on the *requests* module and was tested on Python3
 
 I will absolutely **not** keep it updated so hopefully it works as needed for you too 
+
+#### Example
+
+./UserFinder.py "http://10.10.11.160:5000/login" /usr/share/wordlists/seclists/Usernames/cirt-default-usernames.txt "Invalid login" username password --output output.file
